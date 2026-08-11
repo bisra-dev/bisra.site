@@ -127,7 +127,7 @@ const Contact = () => {
                     >
                         <div className="px-6 py-2 bg-black rounded-3xl border-1 border-blue-600  text-white cursor-pointer">
                             <a href="https://github.com/bisra-dev" className="flex items-center space-x-2">
-                                <img src="/src/assets/GitHub_light.svg" alt="Logo Link"
+                                <img src="/GitHub_light.svg" alt="Logo Link"
                                     className="w-5 h-5 object-contain"
                                 />
                                 <span className="font-inter font-bold text-white">Github</span>
@@ -140,7 +140,7 @@ const Contact = () => {
                     >
                         <div className="px-6 py-2 bg-black rounded-3xl border-1 border-blue-600  text-white cursor-pointer">
                             <a href="https://www.linkedin.com/in/israel-habimana-037192429" className="flex items-center space-x-2">
-                                <img src="/src/assets/linkedin.svg" alt="Logo Link"
+                                <img src="/linkedin.svg" alt="Logo Link"
                                     className="w-5 h-5 object-contain"
                                 />
                                 <span className="font-inter font-bold text-white">Linkedin</span>
@@ -153,7 +153,7 @@ const Contact = () => {
                     >
                         <div className="px-6 py-2 bg-black rounded-3xl border-1 border-blue-600  text-white cursor-pointer">
                             <a href="https://mail.google.com/mail" className="flex items-center space-x-2">
-                                <img src="/src/assets/gmail.svg" alt="Logo Link"
+                                <img src="/gmail.svg" alt="Logo Link"
                                     className="w-5 h-5 object-contain"
                                 />
                                 <span className="font-inter font-bold text-white">bisra@mail.com</span>

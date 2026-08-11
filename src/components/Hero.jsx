@@ -99,7 +99,7 @@ const Hero = () => {
               >
               <div>
                 <a href="https://github.com/bisra-dev">
-                  <img src="/src/assets/GitHub_light.svg" alt="Logo Link"
+                  <img src="/GitHub_light.svg" alt="Logo Link"
                     className="w-8 h-8 object-contain"
                   />
                 </a>
@@ -113,7 +113,7 @@ const Hero = () => {
               >
               <div>
                 <a href="https://www.linkedin.com/in/israel-habimana-037192429">
-                  <img src="/src/assets/linkedin.svg" alt="Logo Link"
+                  <img src="/linkedin.svg" alt="Logo Link"
                     className="w-8 h-8 object-contain"
                   />
                 </a>
@@ -127,7 +127,7 @@ const Hero = () => {
               >
               <div>
                 <a href="https://instagram.com/bisra.dev">
-                  <img src="/src/assets/instagram.svg" alt="Logo Link"
+                  <img src="/instagram.svg" alt="Logo Link"
                     className="w-8 h-8 object-contain"
                   />
                 </a>
@@ -141,7 +141,7 @@ const Hero = () => {
               >
               <div>
                 <a href="https://wa.me/qr/DADWUCRHZS7YO1">
-                  <img src="/src/assets/whatsapp.svg" alt="Logo Link"
+                  <img src="/whatsapp.svg" alt="Logo Link"
                     className="w-26 h-26 object-contain"
                   />
                 </a>

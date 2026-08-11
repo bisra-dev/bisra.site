@@ -450,7 +450,7 @@ const ProfileCardComponent = ({
                 </p>
               </div>
               <div className="w-full">
-                <img src="/src/assets/output.png" alt="profile" className="w-full h-[450px] mt-20" />
+                <img src="/output.png" alt="profile" className="w-full h-[450px] mt-20" />
               </div>
             </div>
           </div>
