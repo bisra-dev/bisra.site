@@ -170,7 +170,7 @@ export function CardHoverEffect({
         <p
           className={cn(
             "mt-1 transition-colors duration-300",
-            "text-black dark:text-white/40",
+            "text-blue-200 dark:text-white/40",
             "dark:text-white/40",
             sizeConfig.descSize,
           )}>
@@ -182,7 +182,7 @@ export function CardHoverEffect({
         {features && features.length > 0 && (
           <ul
             className={cn(
-              "mt-3 space-y-1.5 text-black dark:text-white/40",
+              "mt-3 space-y-1.5 text-blue-200 dark:text-white/40",
               sizeConfig.descSize,
             )}>
             {features.map((feature) => (
