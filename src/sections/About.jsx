@@ -68,7 +68,7 @@ const About = () => {
               <p className="font-inter font-bold text-blue-200 text-[14px]">Years Experience</p>
             </div>
           </div>
-          <div className="py-8">
+          <div className="py-8 max-w-xl">
             <motion.ul
               initial="hidden"
               whileInView="visible"

@@ -156,7 +156,7 @@ const Contact = () => {
                                 <img src="/gmail.svg" alt="Logo Link"
                                     className="w-5 h-5 object-contain"
                                 />
-                                <span className="font-inter font-bold text-white">bisra@mail.com</span>
+                                <span className="font-inter font-bold text-white">israhabimana@gmail.com</span>
                             </a>
                         </div>
                     </motion.div>
