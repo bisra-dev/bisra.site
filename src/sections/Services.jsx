@@ -65,7 +65,7 @@ const Services = () => {
                 </motion.div>
             </div>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-2">
             {iconComponents.map((IconComponent, index) => (
                 <Offercard key={IconComponent.title} index={index} {...IconComponent} />
             ))}

@@ -102,16 +102,10 @@ export function CardHoverEffect({
         "group relative z-30 w-full cursor-pointer overflow-hidden rounded-2xl",
         sizeConfig.padding,
         // Base background — same for every card regardless of variant
-        "bg-mist-800",
-        // Common styles
-        "before:absolute before:inset-0 before:rounded-[inherit] before:content-['']",
-        "after:absolute after:inset-0 after:rounded-[inherit] after:content-['']",
-        // Hover background — looked up from the static HOVER_BG map above,
-        // so it changes color per-variant (matches the glow color used
-        // in the top-right shine effect below)
+        "bg-gray-800",
+       
         glowEffect && HOVER_BG[variant],
         // Shadows — only appear on hover, no shadow at rest
-        "hover:shadow-[0px_5px_15px_rgba(0,0,0,0.03),0px_25px_35px_rgba(0,0,0,0.2)]",
         "dark:hover:shadow-[0px_5px_15px_rgba(0,0,0,0.06),0px_25px_35px_rgba(0,0,0,0.4)]",
         className,
       )}
@@ -142,7 +136,7 @@ export function CardHoverEffect({
       <IconWrapper
         className={cn(
           "relative z-50 mb-2 inline-flex w-fit items-center justify-center rounded-xl p-3",
-          "bg-blue-200  backdrop-blur-3xl",
+          "bg-white  backdrop-blur-3xl",
           "dark:from-white/10 dark:to-white/5",
           "transition-all duration-300",
         )}
@@ -182,7 +176,7 @@ export function CardHoverEffect({
         {features && features.length > 0 && (
           <ul
             className={cn(
-              "mt-3 space-y-1.5 text-blue-200 dark:text-white/40",
+              "mt-3 space-y-1.5 text-white dark:text-white/40",
               sizeConfig.descSize,
             )}>
             {features.map((feature) => (
@@ -193,18 +187,6 @@ export function CardHoverEffect({
             ))}
           </ul>
         )}
-      </div>
-
-      {/* Shine Effect — this is the glow in the top-right corner of the card,
-          colored by variantConfig.shine (driven by the "variant" prop) */}
-      <div className="absolute inset-0 z-20 overflow-hidden rounded-[inherit] opacity-100 transition-all duration-500">
-        <div
-          className="absolute bottom-[55%] left-1/2 aspect-square w-[200%] -translate-x-1/2 rounded-[50%]"
-          style={{
-            background: `conic-gradient(from ${variantConfig.shine}, transparent 360deg)`,
-            filter: "blur(40px)",
-          }}
-        />
       </div>
     </Div>
   );

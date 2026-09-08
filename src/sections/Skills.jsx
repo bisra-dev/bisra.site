@@ -13,7 +13,7 @@ const TechCard = ({index, title, icon}) => {
           variants={fadeIn("up", "spring", 0.3, 0.6)}
           whileHover={{
             scale: 1.03, y: -10,
-            boxShadow: "0px 0px 60px 30px rgba(109, 40, 217, 0.6)", 
+            boxShadow: "0px 0px 30px 10px rgba(109, 40, 217, 0.6)", 
           }} 
           transition={{ type: "spring", stiffness: 300, damping: 20 }}
           className="w-full green-pink-gradient rounded-[20px] shadow-card"

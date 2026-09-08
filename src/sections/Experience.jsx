@@ -16,6 +16,7 @@ const Experience = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: true, amount: 0.3}}
+                className='mt-10'
                 >
                 <div className="px-6 py-3 bg-mist-800 rounded-3xl border-1 border-blue-600 inline-flex items-center space-x-2 text-white cursor-pointer">
                 <span className="font-inter font-bold text-white">Work History</span>

@@ -5,7 +5,7 @@ const styles = {
 
   
   heroHeadText:
-  "font-black w-full text-[45px] leading-[50px] xl:text-[50px] lg:text-[50px]",
+  "font-black w-full text-[30px] leading-[50px]  xl:text-[50px] lg:text-[48px]",
 
 heroSubText:
   "text-mist-950 w-full font-bold text-[18px] leading-[23px]",

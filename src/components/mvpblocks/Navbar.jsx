@@ -3,12 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown, ArrowRight, Sparkles } from "lucide-react";
 
 const navItems = [
-  { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Services", href: "#services" },
   { name: "Projects", href: "#projects" },
   { name: "Experience", href: "#experience" },
-  { name: "Contact", href: "#contact" },
 ];
 
 export default function Header1() {
@@ -72,17 +70,17 @@ export default function Header1() {
 
   return (
     <motion.header
-      className="fixed top-4 left-1/2 -translate-x-1/2 w-[92%] lg:w-[100%] sm:top-6 max-w-6xl z-50 rounded-2xl"
+      className="fixed top-4 left-1/2 -translate-x-1/2 w-[95%] lg:w-[100%] sm:top-6 max-w-6xl z-50 rounded-2xl"
       initial={{ y: -100, opacity: 0 }}
       animate={{
         y: 0,
         opacity: 1,
         backdropFilter: isScrolled ? "blur(20px)" : "blur(0px)",
         backgroundColor: isScrolled
-          ? "rgba(76, 29, 149, 0.65)"
+          ? "rgba(70, 30, 150, 0.3)"
           : "rgba(255, 255, 255, 0)",
         boxShadow: isScrolled
-          ? "0 8px 32px rgba(76, 29, 149, 0.25)"
+          ? "0 8px 32px rgba(0, 0, 0, 0)"
           : "0 8px 32px rgba(0, 0, 0, 0)",
         border: isScrolled
           ? "1px solid rgba(124, 58, 237, 0.4)"

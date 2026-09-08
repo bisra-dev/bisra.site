@@ -24,7 +24,6 @@ const iconComponents = [
         description:
             "I build fast, responsive, and pixel-perfect interfaces with React, Next.js, and Tailwind CSS—turning designs into smooth, engaging digital experiences.",
         features: [
-            "React & Next.js development",
             "Responsive web design",
             "Tailwind CSS",
             "Figma-to-code implementation",
@@ -39,7 +38,6 @@ const iconComponents = [
             "Core Web Vitals optimization",
             "Technical SEO",
             "Image optimization",
-            "CDN and caching setup",
         ],
     },
     {

@@ -27,8 +27,8 @@ export default function EllipsisBlock() {
     ),
   };
   return (
-    <div className="relative rounded-xl lg:right-6">
-      <div className="rounded-xl w-full mt-12 lg:mt-4">
+    <div className="relative rounded-xl">
+      <div className="w-full rounded-xl mt-12">
         <div className="flex items-center justify-between rounded-t-xl border-b border-gray-700 bg-neutral-900 px-4 py-2">
           <div className="flex items-center justify-center gap-2">
             <span className="size-3 rounded-full bg-[#FF5F56]" />
@@ -56,7 +56,7 @@ export default function EllipsisBlock() {
           <code>
 
             <div>
-              <div className="flex absolute right-0 -mt-20 -mr-6">
+              <div className="hidden lg:block md:block absolute right-0 -mt-20 -mr-7">
                 <Badge17 />
               </div>
            </div>
@@ -77,14 +77,14 @@ export default function EllipsisBlock() {
 
              &nbsp;&nbsp;
             <span style={{ color: "#80b6f7" }}>role :</span>{" "}
-            <span style={{ color: "#157555" }}>"React & Frontend Dev"</span>,
+            <span style={{ color: "#157555" }}>"Backend & Frontend Dev"</span>,
             <br />
             <br />
 
                &nbsp;&nbsp;
             <span style={{ color: "#80b6f7" }}>experience :</span>{" "}
             <span style={{ color: "#ff79c6" }}>4</span>,
-            <span style={{ color: "#0d0d0d" }}> // Years</span>
+            <span style={{ color: "#fff" }}> // Years</span>
             <br />
             <br />
             &nbsp;&nbsp;
@@ -92,8 +92,8 @@ export default function EllipsisBlock() {
             <br />
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <span style={{ color: "#157555" }}>"React"</span>,
-            <span style={{ color: "#157555" }}>"Next.js"</span>
+            <span style={{ color: "#157555" }}>"Next,js"</span>,
+            <span style={{ color: "#157555" }}>"React"</span>
             <br />
              <br />
             &nbsp;&nbsp;&nbsp;&nbsp;
@@ -112,12 +112,10 @@ export default function EllipsisBlock() {
             <br />
             <br />
 
-            <span style={{ color: "#0d0d0d" }}>// let's build something great |</span>
-            <br />
-            <br />
+            
 
             <div>
-              <div className="flex absolute left-0 mt-4 -ml-6">
+              <div className="hidden lg:block md:block absolute left-0 mt-4 -ml-6">
                 <Badge16 />
               </div>
            </div>

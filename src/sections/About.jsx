@@ -35,9 +35,7 @@ const About = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="w-full lg:w-[380px] lg:flex-shrink-0"
           >
-          <div className="py-4">
-            <ProfileCard />
-          </div>
+         
         </motion.div>
 
         <div className="lg:px-16 lg:py-12">

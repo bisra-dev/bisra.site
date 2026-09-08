@@ -69,9 +69,9 @@ const Contact = () => {
             </div>
             
             <form onSubmit={handleSubmit} className="mt-12 lg:mx-16 flex flex-col gap-6">
-                <div className="grid lg:grid-cols-2 space-x-5">
+                <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-2 lg:items-center">
                     <label className="flex flex-col mt-4">
-                    <span className="text-blue-200 text-[14px] font-inter font-bold">Your Name</span>
+                    <span className="text-white text-[14px] font-inter font-bold">Your Name</span>
                     <input
                     type="text"
                     name="name"
@@ -80,7 +80,16 @@ const Contact = () => {
                     className="bg-black py-2 px-4 mt-2 placeholder:text-blue-200 rounded-2xl outline-none text-blue-200 border-1 border-blue-600" />
                     </label>
                     <label className="flex flex-col mt-4">
-                        <span className="text-blue-200 text-[14px] font-inter font-bold">Phone Number</span>
+                    <span className="text-white text-[14px] font-inter font-bold">Company</span>
+                    <input
+                    type="text"
+                    name="company"
+                    required
+                    placeholder="Company Name"
+                    className="bg-black py-2 px-4 mt-2 placeholder:text-blue-200 rounded-2xl outline-none text-blue-200 border-1 border-blue-600" />
+                    </label>
+                    <label className="flex flex-col mt-4">
+                        <span className="text-white text-[14px] font-inter font-bold">Phone Number</span>
                         <input
                         type="text"
                         name="phone"
@@ -90,7 +99,7 @@ const Contact = () => {
                     </label>
                 </div>
                 <label className="flex flex-col mt-4">
-                    <span className="text-blue-200 text-[14px] font-inter font-bold">Email Address</span>
+                    <span className="text-white text-[14px] font-inter font-bold">Email Address</span>
                     <input
                     type="email"
                     name="email"
@@ -100,7 +109,7 @@ const Contact = () => {
                 </label>
 
                 <label className="flex flex-col">
-                    <span className="text-blue-200 text-[14px] font-inter font-bold">Message</span>
+                    <span className="text-white text-[14px] font-inter font-bold">Message</span>
                     <textarea
                     rows="6"
                     name="message"
@@ -111,7 +120,7 @@ const Contact = () => {
                 <button
                     type="submit"
                     disabled={ status === "sending"}
-                    className="bg-blue-600 py-4 text-white font-inter font-bold rounded-2xl shadow-md shadow-violet-900 flex justify-center items-center gap-2"
+                    className="bg-blue-600 hover:bg-violet-700 py-4 text-white font-inter font-bold rounded-2xl shadow-lg flex justify-center items-center gap-2"
                 >
                     { status === "sending" ? "sending..." : ""}
                      <SendIcon className="w-5 h-5 text-white text-center"/>Send Message</button>
