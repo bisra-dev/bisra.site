@@ -12,7 +12,7 @@ import Footer from './sections/Footer';
 
 const App = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full overflow-x-clip'>
       <section className="bg-[#F9F9F9]">
         <Header1 />
         <Hero />

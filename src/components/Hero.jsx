@@ -50,7 +50,7 @@ const Hero = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
               <div className="mt-4">
-                <p className={`${styles.heroSubText} max-w-lg normal-case font-inter`}>
+                <p className={`${styles.heroSubText} max-w-xl normal-case font-inter`}>
                   I help businesses turn their ideas into modern, fast, and scalable websites using next.js and react latest frontend technologies.
                 </p>
               </div>

@@ -47,7 +47,7 @@ const Experience = () => {
                         initial="hidden"
                         whileInView="show"
                         viewport={{ once: true, amount: 0.3 }}
-                        className="relative flex gap-6"
+                        className="relative flex gap-4 sm:gap-6"
                     >
                     {/* icon */}
                     <div
@@ -66,7 +66,7 @@ const Experience = () => {
                     </div>
 
                     {/* card */}
-                    <div className="flex-1 bg-mist-800 border border-blue-600 rounded-2xl p-6">
+                    <div className="min-w-0 flex-1 bg-mist-800 border border-blue-600 rounded-2xl p-6">
                         {/* 🔧 FIXED — was `flex justify-between items-start gap-4`,
                             which forced the title and the date/location onto one
                             row and caused them to overlap/wrap on small screens.

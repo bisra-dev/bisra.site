@@ -56,16 +56,6 @@ const Contact = () => {
                     <h2 className={`${styles.sectionHeadText} md:whitespace-nowrap text-white`}>Let's Build Something</h2>
                     </motion.div>
                 </div>
-                <div>
-                    <motion.div
-                    variants={textVariant()}
-                    initial="hidden"
-                    whileInView="show"
-                    viewport={{ once: true, amount: 0.3}}
-                    >
-                    <h2 className={`${styles.sectionHeadText} md:whitespace-nowrap`}>Great Together</h2>
-                    </motion.div>
-                </div>
             </div>
             
             <form onSubmit={handleSubmit} className="mt-12 lg:mx-16 flex flex-col gap-6">
