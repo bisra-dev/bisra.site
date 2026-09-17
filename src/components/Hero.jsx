@@ -39,7 +39,7 @@ const Hero = () => {
             >
             <div className="mt-4 lg:mt-16">
               <h1 className={`${styles.heroHeadText} max-w-md font-syne normal-case  font-bold`}>
-                <span className="text-violet-700">Fullstack Developer</span>
+                <span className="text-violet-700">Full Stack Developer</span>
               </h1>
             </div>
             </motion.div>          
